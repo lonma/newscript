@@ -707,7 +707,7 @@ async function plantBeanIndex() {
 }
 function readShareCode() {
     return new Promise(async resolve => {
-        $.get({ url: `https://wqs.jd.com/'`, timeout: 20000 }, (err, resp, data) => {
+        $.get({ url: `https://wqs.jd.com/`, timeout: 20000 }, (err, resp, data) => {
             try {
                 if (err) {
                     //console.log(`${JSON.stringify(err)}`)
