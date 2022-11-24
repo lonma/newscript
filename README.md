@@ -1,0 +1,2 @@
+# newscript
+自用
