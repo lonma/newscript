@@ -2,7 +2,7 @@
 京东集魔方
 ===========================
 
-
+https://raw.githubusercontent.com/shufflewzc/faker3/main/jd_jmf.js
 ============Quantumultx===============
 [task_local]
 #集魔方
