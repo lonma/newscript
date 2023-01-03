@@ -1320,7 +1320,7 @@ function timeFormat(time) {
 }
 function readShareCode() {
     return new Promise(async resolve => {
-        $.get({ url: `https://cdn.jsdelivr.net/gh/6dylan6/updateTeam@main/shareCodes/fruit.json`, timeout: 10000 }, (err, resp, data) => {
+        $.get({ url: ``, timeout: 10000 }, (err, resp, data) => {
             try {
                 if (err) {
                     console.log(JSON.stringify(err))
