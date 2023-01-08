@@ -51,10 +51,10 @@ $.token = process.env.gua_log_token || token // token
     getWhitelist()
     console.log("\nTOKEN："+$.token.replace(/(.{5}).+(.{5})/, '$1***$2')+"\n")
     let urlArr = [
-        // "http://127.0.0",
-        "http://g.zxi7",
-        "https://jd.smiek",
-        "",
+        // "http://127.0.0.1",
+        "http://g.zxi7.cn",
+        "https://jd.smiek.tk",
+        "http://jd.smiek.ga",
     ]
     for(let i of urlArr){
         $.getSignUrl = i
