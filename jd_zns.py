@@ -53,7 +53,7 @@ sys.stderr = Logger(f'./jd12-{today}.log', sys.stderr)
 if cookies:
     pass
 else:
-    print('看看放cookie没，自动退出')
+    pass
     sys.exit()
 
 print('\n\n欢迎使用jd脚本\n')
